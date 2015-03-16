@@ -25,5 +25,9 @@ public class App01 {
         System.out.println(str.codePointCount(0, 2));
         System.out.println(str.charAt(0));
         System.out.println(str.charAt(1));
+
+        String s = new String(new char[]{'\uD852', '\uDDF0'});
+        System.out.println(s); //
+        System.out.println(s.length()); // 2
     }
 }
