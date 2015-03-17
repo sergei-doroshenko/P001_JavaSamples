@@ -6,27 +6,29 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by Sergei on 14.03.2015.
+ * Created by Sergei Doroshenko on 14.03.2015.
  */
-public class MIterator implements Iterator {
-    private Iterator iter0; // 1st iterator
-    private Iterator iter1; // 2nd iterator
+public class MIterator<T, E> implements Iterator {
+    private Iterator<T> iter0; // 1st iterator
+    private Iterator<E> iter1; // 2nd iterator
 
-    private List list0; // list to store elements from 1st iterator
-    private List list1; // list to store elements from 2nd iterator
+    private List<T> list0; // list to store elements from 1st iterator
+    private List<E> list1; // list to store elements from 2nd iterator
     private int count0; // counter for 1st list
     private int count1; // counter for 2nd list
     private List result; // result that return by next() method
 
-    public MIterator(Iterator iter0, Iterator iter1) {
+    public MIterator(Iterator<T> iter0, Iterator<E> iter1) {
         this.iter0 = iter0;
         this.iter1 = iter1;
-        this.list0 = new ArrayList();
-        this.list1 = new ArrayList();
+        this.list0 = new ArrayList<>();
+        this.list1 = new ArrayList<>();
     }
 
     @Override
     public boolean hasNext() {
+        boolean flag0, flag1;
+        flag0 = flag1 = true;
 
         /* if we don't have enough objects in 1st list */
         if (list0.size() == 0 || list0.size() <= count0) {
@@ -38,8 +40,15 @@ public class MIterator implements Iterator {
                 * e.g. we add "B" so we need to iterate from 1 to N with "B"
                  * B1, B2, B3 ... BN */
                 count1 = 0; //
-            } else {
-                return false;
+            } else {                         // if 1st iterator doesn't have elements
+                flag0 = false;               // set it's flag to false
+                if (iter1.hasNext()) {       // than check maybe 2nd iterator still has elements, if yes
+                    list1.add(iter1.next()); // add next element to 2nd list
+                    count1++;                // increment 2nd counter
+                    count0 = 0;              // set to zero 1st counter, because we have to start form
+                } else {                     // the beginning (0 - index)
+                    flag1 = false;
+                }
             }
 //            System.out.println("list0: " + list0);
         }
@@ -48,13 +57,24 @@ public class MIterator implements Iterator {
             if (iter1.hasNext()) {
                 list1.add(iter1.next());
                 count0 = 0;
-            } else {
-                return false;
+            } else {                          // if 2nd iterator doesn't have elements
+                flag1 = false;                // set flag to false
+                if (iter0.hasNext()) {        // than check maybe 1st iterator has elements, if yes
+                    list0.add(iter0.next());  // add next element to 1st list
+                    count0++;                 // increment 1st counter
+                    count1 = 0;               // set to zero 2nd counter
+                } else {
+                    flag0 = false;
+                }
             }
 //            System.out.println("list1: " + list1);
         }
 
-        result = new ArrayList(); // create result object
+        if (!flag0 && !flag1) { // if both iterators doesn't have elements
+            return false;       // return false
+        }
+
+        result = new ArrayList();      // create result object
         result.add(list0.get(count0)); // add element from 1st list
         result.add(list1.get(count1)); // add element from 2nd list
 
@@ -81,8 +101,8 @@ public class MIterator implements Iterator {
     }
 
     public static void main(String[] args) {
-        MIterator mIterator = new MIterator(Arrays.asList("A", "B", "C").iterator(),
-                Arrays.asList(1, 2, 3).iterator());
+        MIterator<String, Integer> mIterator = new MIterator(Arrays.asList("A", "B", "C").iterator(),
+                Arrays.asList(1, 2, 3, 4, 5).iterator());
 
         while (mIterator.hasNext()) {
             System.out.println(mIterator.next());

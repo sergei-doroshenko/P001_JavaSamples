@@ -19,3 +19,5 @@ public class App02 {
         throw new AssertionError();
     }
 }
+
+// Exception in thread "main" java.lang.AssertionError
