@@ -18,7 +18,7 @@ public class App04 {
 
         } finally {
 
-            throw new RuntimeException(); // not exception declaration in method signature
+            throw new RuntimeException(); // no exception declaration in method signature
         }
     }
 }
