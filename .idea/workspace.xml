@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e83a221-a5bb-42e4-b6d7-83a54361297f" name="Default" comment="">
-<<<<<<< HEAD
+
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-=======
+
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_1_virtual/App00.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_2_constructors/App00.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_9_bits/App00_mult.java" />
@@ -24,7 +24,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1Z0-803/src/_8_exceptions/App02.java" afterPath="$PROJECT_DIR$/1Z0-803/src/_8_exceptions/App02.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App04.java" afterPath="$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App04.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
     </list>
     <ignored path="GoCourses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,11 +158,10 @@
       <sortByType />
     </navigator>
     <panes>
-<<<<<<< HEAD
+
       <pane id="Scope" />
       <pane id="PackagesPane" />
-=======
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,8 +193,6 @@
               <option name="myItemId" value="go_courses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-<<<<<<< HEAD
-=======
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -212,7 +209,7 @@
               <option name="myItemId" value="_2_constructors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -231,8 +228,7 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-<<<<<<< HEAD
-=======
+
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -319,7 +315,7 @@
               <option name="myItemId" value="1Z0-803" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -338,7 +334,7 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-<<<<<<< HEAD
+
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -346,13 +342,9 @@
           </PATH>
         </subPane>
       </pane>
-=======
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -704,11 +696,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
+
     <frame x="-8" y="-8" width="1314" height="784" extended-state="0" />
-=======
+
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -720,16 +712,16 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
+
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
+
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26005888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21321961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -867,7 +859,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_3_io/_0_charset/_1_lab/App00.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
@@ -879,9 +871,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_puzzlers/src/_02_expressive_puzzlers/puzzle_1/Oddity.java">
-=======
+    </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_5_collections/App03.java">
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57921636" vertical-offset="0" max-vertical-offset="587">
           <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
@@ -1199,10 +1191,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_4_database_exmpl/DataBaseException.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.26086956" vertical-offset="102" max-vertical-offset="1309">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.11707989" vertical-offset="0" max-vertical-offset="726">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
@@ -1230,68 +1222,68 @@
         <state vertical-scroll-proportion="0.11707989" vertical-offset="0" max-vertical-offset="726">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App02.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.57921636" vertical-offset="0" max-vertical-offset="587">
           <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.11707989" vertical-offset="0" max-vertical-offset="726">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App03.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.40545145" vertical-offset="0" max-vertical-offset="629">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.11707989" vertical-offset="0" max-vertical-offset="726">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App04.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.3475298" vertical-offset="0" max-vertical-offset="595">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.46831957" vertical-offset="0" max-vertical-offset="726">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App04_lab.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.55025554" vertical-offset="0" max-vertical-offset="748">
           <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.11707989" vertical-offset="0" max-vertical-offset="726">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App05_lab.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.23415978" vertical-offset="0" max-vertical-offset="731">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
@@ -1303,29 +1295,29 @@
         <state vertical-scroll-proportion="0.11707989" vertical-offset="0" max-vertical-offset="726">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App08_unreacheable.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.16287425" vertical-offset="0" max-vertical-offset="835">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.25757575" vertical-offset="0" max-vertical-offset="726">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_1_excep/_1_try_catch_fin/App07_more_precise.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.1017964" vertical-offset="0" max-vertical-offset="835">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.11707989" vertical-offset="0" max-vertical-offset="726">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
@@ -1337,19 +1329,19 @@
         <state vertical-scroll-proportion="0.07024793" vertical-offset="0" max-vertical-offset="726">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_6_oop/_2_constructors/App00.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state vertical-scroll-proportion="0.55832034" vertical-offset="1545" max-vertical-offset="2380">
           <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
-=======
+        </state>
         <state vertical-scroll-proportion="0.35123968" vertical-offset="0" max-vertical-offset="726">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
->>>>>>> 467671909e2de2452b9a47c05a839012198e2d63
+
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

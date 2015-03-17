@@ -11,11 +11,14 @@ public class Child extends Parent {
     }
 
     public Child(int x) {
+
         System.out.println("Child(int) x: " + x);
     }
 
     public Child(int p, int c) {
-        super(p);
+        // this(c); // call to this() must be the first statement
+        super(p); // call to super() must be the first statement
+
         this.c = c;
         System.out.println("C");
     }
