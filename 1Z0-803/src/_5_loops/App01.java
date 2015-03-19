@@ -13,5 +13,9 @@ public class App01 {
         } while(i < var--);
         System.out.println(var);
 
+        int k = 0;
+        while(/*int k = 5;*/ k < 7){
+            System.out.println(k++);
+        }
     }
 }

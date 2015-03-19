@@ -1,4 +1,4 @@
-package core._6_oop._3_call_order;
+package _7_inheritance._0_call_order;
 
 /**
  * Created by Sergei on 17.03.2015.

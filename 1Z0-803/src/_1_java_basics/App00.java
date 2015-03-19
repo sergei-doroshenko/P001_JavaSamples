@@ -36,7 +36,7 @@ public class App00 {
         b0 = (byte) i0;
         System.out.println(i0 + " " + b0); // -128 -128
         /********************************************************************/
-        short s = 10; // 1
+        short s = 1___0; // 1
         /*char c = s;*/ // compilation error, need cast to char
         char c = (char) s;
         /*s = c;*/ // 3 compilation error, need cast to short
@@ -49,8 +49,8 @@ public class App00 {
         System.out.println(Float.MAX_VALUE);
         float f0 = 1_000_000_000_000_000_000_000.0f;
         System.out.println("Float.MAX_VALUE = " + f0); // prints Float.MAX_VALUE = 1.0E21
-        int x = 100;
-        float f1 = 1 - x/100;
+        int $ = 100;
+        float f1 = 1 - $/100;
         System.out.println("f1 = " + f1); // prints f1 = 0.0
 
         float f2 = 0 * 1.5f; // legal

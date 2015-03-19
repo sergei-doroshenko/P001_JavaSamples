@@ -15,7 +15,7 @@ public class Numbers extends State {
     }
 
     @Override
-    public State next(byte value) throws IOException {
+    public State next(byte value) throws IOException { // analog of doAction() method
         if (value == 0) {
             out.write(buff.toByteArray(), 0, buff.toByteArray().length);
             return new Zero(out);
