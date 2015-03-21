@@ -2,430 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e83a221-a5bb-42e4-b6d7-83a54361297f" name="Default" comment="Merge branch 'master' of https://github.com/sergei-doroshenko/goCourses&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/1Z0-803.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_0_call_order/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_1_java_basics/_0_keywords/App00.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App00.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_6_inner_nested/App00.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_1_java_basics/App01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_6_inner_nested/App01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_2_data_types/str/App04.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_1_virtual/App06_template_method.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_4_principles/composite/AppComposit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_4_principles/delegation/AppDelegation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_6_inner_nested/listener/AppListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_3_io/_1_io/state/AppState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_0_call_order/App_Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_4_principles/composite/Composite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_4_principles/delegation/Delegation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_0_call_order/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_6_inner_nested/listener/EventMaker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_4_principles/composite/Figure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_3_methods/Holder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_6_inner_nested/listener/MyListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_4_principles/composite/Oval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_4_principles/composite/Romb.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/go_courses.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go_courses/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_1_java_basics\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_2_data_types\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_2_data_types\str\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_2_data_types\str\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_2_data_types\str\App02_sb.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_2_data_types\str\App03_sb.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_3_operators_if_else\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_3_operators_if_else\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_3_operators_if_else\App02_switch.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_3_operators_if_else\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_3_operators_if_else\App04.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_4_arrays\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_4_arrays\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_5_loops\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_5_loops\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_5_loops\App_for.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\A.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\A0.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\App03_overloading.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\App04.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\App05.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\B.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\B0.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Bang.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Bat.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\BigBang.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Bird.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\C.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Camel.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Car.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Eagle.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Flyer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Game.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\I.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Primes.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Rideable.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Soccer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\SportsCar.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Sub.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\Super.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\T1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\T2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_7_inheritance\TestClass.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_8_exceptions\A.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_8_exceptions\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_8_exceptions\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_8_exceptions\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_8_exceptions\B.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_8_exceptions\C.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\_9_wrappers\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_3_interrupt\App01$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_3_interrupt\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_3_interrupt\App02$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_3_interrupt\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_3_interrupt\App03$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_3_interrupt\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App00$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App00$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App01$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App01$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App02$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_1_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_1_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_1_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_1_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_2_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_2_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_2_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_2_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_3_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_3_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_3_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_3_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_4_buffer\ConsumerTimed.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_4_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_4_buffer\ProducerTimed.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_4_monitor\_4_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_8_juc\_0_jmm\AppJMM$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_8_juc\_0_jmm\AppJMM$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_8_juc\_0_jmm\AppJMM.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_8_juc\_1_reentrant_lock\AppRL$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_8_juc\_1_reentrant_lock\AppRL$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_8_juc\_1_reentrant_lock\AppRL.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\_4_threads\_8_juc\_1_reentrant_lock\ConditionBoundedBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\excep\ExcepTr.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\lib\Processors.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\lib\ThreadUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\dds\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\dds\App01_rec.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\dds\Node.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\App03_merge.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\App04_inner_loop.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\App05_inner_loop.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\sort\BubbleSort.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\sort\InsertionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\loop\sort\SelectionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_0_by_ref_by_val\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_0_by_ref_by_val\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_0_by_ref_by_val\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_0_by_ref_by_val\IntHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_2_heap_gc\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_2_heap_gc\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_2_heap_gc\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_2_heap_gc\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_2_heap_gc\App04.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\mem\_2_heap_gc\Fin.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\App02_merge.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\Fib.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\Fibonacci.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\Permutation00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\Permutation01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\hanoi\HanoiTowers.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\hanoi\HanoiTowersApp.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\proc\rec\parser\ExpressionParser.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_3_interrupt\App01$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_3_interrupt\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_3_interrupt\App02$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_3_interrupt\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_3_interrupt\App03$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_3_interrupt\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App00$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App00$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App01$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App01$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App02$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_1_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_1_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_1_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_1_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_2_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_2_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_2_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_2_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_3_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_3_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_3_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_3_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_4_buffer\ConsumerTimed.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_4_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_4_buffer\ProducerTimed.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_4_monitor\_4_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_8_juc\_0_jmm\AppJMM$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_8_juc\_0_jmm\AppJMM$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_8_juc\_0_jmm\AppJMM.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_8_juc\_1_reentrant_lock\AppRL$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_8_juc\_1_reentrant_lock\AppRL$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_8_juc\_1_reentrant_lock\AppRL.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\core\threads\_8_juc\_1_reentrant_lock\ConditionBoundedBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\GoCourses\juc\_0_http\SocetServer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\_8_java\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\_8_java\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\ABCD.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\App10.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\MNOP.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\dds\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\dds\App01_rec.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\dds\Node.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\App03_merge.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\App04_inner_loop.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\App05_inner_loop.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\sort\BubbleSort.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\sort\InsertionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\loop\sort\SelectionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_0_by_ref_by_val\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_0_by_ref_by_val\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_0_by_ref_by_val\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_0_by_ref_by_val\IntHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_2_heap_gc\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_2_heap_gc\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_2_heap_gc\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_2_heap_gc\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_2_heap_gc\App04.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_2_heap_gc\Fin.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\mem\_3_ref\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\App02_merge.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\Fibonacci.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\Permutation00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\Permutation01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\hanoi\HanoiTowers.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\hanoi\HanoiTowersApp.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_0_proc\rec\parser\ExpressionParser.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\App04_global_handler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\App04_global_handler$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\App04_global_handler$3.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\App04_global_handler.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\ExcepTr.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\Handler.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_0_base\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_0_base\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_0_base\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_0_base\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_0_base\PrintemException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_0_base\Printer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App04.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App04_lab.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App05_lab.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App06.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App07_more_precise.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_1_try_catch_fin\App08_unreacheable.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_2_try_with_res\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_2_try_with_res\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_2_try_with_res\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_2_try_with_res\ExResource.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_2_try_with_res\Resource.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_2_try_with_res\ResourceEx.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_3_jdbc_example\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_3_jdbc_example\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_4_database_exmpl\DataBase.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_4_database_exmpl\DataBaseException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_4_database_exmpl\RobustDataBase.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_5_excep_and_thread\App00$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_5_excep_and_thread\App00$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_5_excep_and_thread\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_6_lab\Account.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_6_lab\AccountApp.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_6_lab\AccountImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_6_lab\AccountManager.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_6_lab\AccountManagerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_6_lab\BlockAccountException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_1_excep\_6_lab\TryAgainException.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\App04.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\App05_decode.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\App.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\MyCharset.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\MyCharsetApp.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\MyCharsetProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\MyDecoder.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\MyEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\SergeiCharset.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_0_lab\SergeiCharsetProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_1_lab\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_0_charset\_1_lab\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\LogOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\adapter\AdapterApp.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\adapter\EntityDataInput.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\adapter\EntityDataOutput.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\adapter\EntityIntput.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\adapter\EntityOutput.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\adapter\Person$Sex.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\adapter\Person.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\state\Numbers.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\state\State.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_1_io\state\Zero.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_2_serialization\Address.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_2_serialization\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_3_io\_2_serialization\PersonA.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_3_interrupt\App01$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_3_interrupt\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_3_interrupt\App02$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_3_interrupt\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_3_interrupt\App03$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_3_interrupt\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App00$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App00$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App01$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App01$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App02$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_1_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_1_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_1_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_1_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_2_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_2_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_2_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_2_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_3_buffer\Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_3_buffer\Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_3_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_3_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_4_buffer\ConsumerTimed.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_4_buffer\ProducerConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_4_buffer\ProducerTimed.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_4_monitor\_4_buffer\SingleElementBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_8_juc\_0_jmm\AppJMM$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_8_juc\_0_jmm\AppJMM$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_8_juc\_0_jmm\AppJMM.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_8_juc\_1_reentrant_lock\AppRL$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_8_juc\_1_reentrant_lock\AppRL$2.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_8_juc\_1_reentrant_lock\AppRL.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_4_threads\_8_juc\_1_reentrant_lock\ConditionBoundedBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\_0_iterator\MIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\_1_tests\Test00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\_1_tests\Test01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\_1_tests\Test02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_5_collections\_2_equals\AnagramString.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_0_type\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_0_type\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_0_type\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_0_type\Child.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_0_type\Parent.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\App01.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\App02.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\App03.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\App04.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\App05_methodInConstr.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\ChildMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\ParentMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\X.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_1_virtual\Y.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_2_constructors\A.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_2_constructors\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_2_constructors\Child.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_2_constructors\Parent.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_3_call_order\Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_3_call_order\App_Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_3_call_order\Dog.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_7_classload\App00.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_6_oop\_7_classload\Test0.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\_9_bits\App00_mult.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\lib\Processors.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\core\lib\ThreadUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\go_courses\juc\_0_http\SocetServer.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_10\Tweedledee.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_1\Oddity.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_2\Change.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_3\LongDivision.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_4\Elementary.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_5\JoyOfHex.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_6\Multicast.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_7\CleverSwap.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_8\DosEquis.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\puzzle_9\Tweedledum.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_02_expressive_puzzlers\r0.bat" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_56_puzzle\BigProblem.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_57_puzzle\Name.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_58_puzzle\Name.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_59_puzzle\Differences.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_60_puzzle\OneLiners.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_61_puzzle\DatingGame.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_62_puzzle\NameGame.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_63_puzzle\MoreNames.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_64_puzzle\Mod.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_65_puzzle\SuspiciousSort$1.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_65_puzzle\SuspiciousSort$Order.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\_65_puzzle\SuspiciousSort.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\IdeaProjects\goCourses\out\production\java_puzzlers\_07_library_puzzlers\r0.bat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1Z0-803/src/_1_java_basics/App00.java" afterPath="$PROJECT_DIR$/1Z0-803/src/_1_java_basics/App00.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1Z0-803/src/_5_loops/App01.java" afterPath="$PROJECT_DIR$/1Z0-803/src/_5_loops/App01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_3_call_order/App_Animal.java" afterPath="$PROJECT_DIR$/go_courses/src/core/_6_oop/_3_call_order/App_Animal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1Z0-803/src/_5_loops/App_for.java" afterPath="$PROJECT_DIR$/1Z0-803/src/_5_loops/App_for.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/go_courses/src/core/_3_io/_1_io/state/Numbers.java" afterPath="$PROJECT_DIR$/go_courses/src/core/_3_io/_1_io/state/Numbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App01.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GoCourses.iws" />
@@ -450,7 +27,28 @@
     <favorites_list name="GoCourses" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="App00.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App00.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42236024" vertical-offset="0" max-vertical-offset="644">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -458,8 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/go_courses/src/core/_3_io/_2_serialization/App00.java" />
-        <option value="$PROJECT_DIR$/go_courses/src/core/_3_io/_2_serialization/Adress.java" />
         <option value="$PROJECT_DIR$/go_courses/src/core/_3_io/_2_serialization/PersonA.java" />
         <option value="$PROJECT_DIR$/go_courses/src/core/_3_io/_2_serialization/Address.java" />
         <option value="$PROJECT_DIR$/go_courses/src/core/_5_collections/App00.java" />
@@ -509,6 +105,8 @@
         <option value="$PROJECT_DIR$/1Z0-803/src/_3_methods/Holder.java" />
         <option value="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App00.java" />
         <option value="$PROJECT_DIR$/1Z0-803/src/_5_loops/App01.java" />
+        <option value="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/AImpl.java" />
+        <option value="$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App01.java" />
       </list>
     </option>
   </component>
@@ -560,8 +158,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -580,8 +176,120 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1Z0-803" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1Z0-803" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1Z0-803" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_7_inheritance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1Z0-803" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_7_inheritance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_1_class_cast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App01.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goCourses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1Z0-803" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_7_inheritance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_1_class_cast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -608,6 +316,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="_7_inheritance._1_class_cast" />
       <recent name="core._3_io._2_serialization" />
       <recent name="core._3_io._0_charset.lab" />
       <recent name="core._1_excep._4_database_exmpl" />
@@ -928,32 +637,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1314" height="784" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43219075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6631893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43866536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21609537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21291865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41315016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41315016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6631893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="716" y="276" width="1007" height="633" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21609537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1081,20 +790,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go_courses/src/core/_5_collections/_1_tests/Test02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55025554" vertical-offset="0" max-vertical-offset="748">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go_courses/src/core/_3_io/_0_charset/_1_lab/numbers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16287425" vertical-offset="0" max-vertical-offset="835">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/go_courses/src/core/_3_io/_0_charset/_0_lab/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1017964" vertical-offset="0" max-vertical-offset="835">
@@ -1386,15 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App00.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.102643855" vertical-offset="427" max-vertical-offset="1071">
           <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.102643855" vertical-offset="393" max-vertical-offset="1309">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05287714" vertical-offset="0" max-vertical-offset="643">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,10 +1123,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29082426" vertical-offset="0" max-vertical-offset="643">
           <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-          <folding>
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App00.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1Z0-803/src/_7_inheritance/_1_class_cast/App01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42236024" vertical-offset="0" max-vertical-offset="644">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
