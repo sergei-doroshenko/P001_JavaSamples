@@ -3,7 +3,7 @@ package core._6_oop._2_constructors;
 /**
  * Created by Sergei on 16.03.2015.
  */
-public class Child extends Parent {
+public class Child extends Parent0 {
     protected int c;
 
     public Child(){

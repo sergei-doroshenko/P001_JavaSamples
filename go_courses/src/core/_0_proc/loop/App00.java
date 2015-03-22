@@ -14,10 +14,10 @@ public class App00 {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(i + ":" + arr[i]);
         }
-        int i = 3;
+        int i = 7;
         int k = i++ + ++i;
-        System.out.println(k); // 8
-        System.out.println(i); // 5
+        System.out.println(k); // 16
+        System.out.println(i); // 9
 
     }
 }

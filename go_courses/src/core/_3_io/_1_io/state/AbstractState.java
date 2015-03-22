@@ -6,14 +6,14 @@ import java.io.OutputStream;
 /**
  * Created by Sergei on 09.03.2015.
  */
-public abstract class State {
+public abstract class AbstractState {
     protected final OutputStream out;
 
-    public State(OutputStream out) {
+    public AbstractState(OutputStream out) {
         this.out = out;
     }
 
-    public abstract State next(byte value) throws IOException;
+    public abstract AbstractState next(byte value) throws IOException;
 
     abstract public void finish() throws IOException;
 }

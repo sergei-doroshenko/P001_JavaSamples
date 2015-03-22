@@ -2,9 +2,7 @@ package core._3_io._1_io.state;
 
 import java.io.*;
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.Arrays;
-import java.util.zip.GZIPOutputStream;
 
 /**
  * Created by Sergei on 18.03.2015.
@@ -31,7 +29,7 @@ public class AppState {
         byte[] buff = new byte[buffSize];
 
         while ( src.read(buff) != -1 ) {
-            State state = new Zero(dst);
+            AbstractState state = new Zero(dst);
             for (int i = 0; i < buff.length; i++) {
                 state = state.next(buff[i]);
             }

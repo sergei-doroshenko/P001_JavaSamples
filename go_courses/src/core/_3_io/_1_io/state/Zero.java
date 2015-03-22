@@ -6,14 +6,14 @@ import java.io.OutputStream;
 /**
  * Created by Sergei on 09.03.2015.
  */
-public class Zero extends State {
+public class Zero extends AbstractState {
 
     public Zero(OutputStream out) {
         super(out);
     }
 
     @Override
-    public State next(byte value) throws IOException {
+    public AbstractState next(byte value) throws IOException {
         if (value == 0) {
             return this;
         } else {

@@ -10,17 +10,41 @@ public class App01 {
         AA ref2 = (AA) ref1;
 
         IntA ref3 = (IntA) (AA) ref0;
-        AA ref4 = (AA) (IntA) ref0;
-        BB ref5 = (BB) (IntA) ref4;
+        ref3.mA(); // BB - mA
 
-        BB ref6 = (BB) (IntB) ref4;
-        IntB ref7 = (IntB) (AA) ref6;
+        AA ref4 = (AA) (IntA) ref0;
+        ref4.mA(); // BB - mA
+        System.out.println(ref4.str); // AA
+
+        BB ref5 = (BB) (IntA) ref4;
+        ref5.mA(); // BB - mA
+        System.out.println(ref5.str); // BB
+
+        /*BB ref6 = (BB) (IntB) ref4; // ClassCastException*/
+
+        /*IntB ref7 = (IntB) (AA) ref5; // ClassCastException*/
     }
 }
 
-interface IntA {}
-interface IntB {}
+interface IntA {
+    void mA();
+}
+interface IntB {
+    void mB();
+}
 
-class AA implements IntA {}
+class AA implements IntA {
+    public String str = "AA";
+    @Override
+    public void mA() {
+        System.out.println("AA - mA");
+    }
+}
 
-class BB extends AA {}
+class BB extends AA {
+    public String str = "BB";
+    @Override
+    public void mA() {
+        System.out.println("BB - mA");
+    }
+}

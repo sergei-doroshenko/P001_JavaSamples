@@ -1,8 +1,5 @@
 package core._3_io._1_io;
 
-import core._3_io._1_io.state.State;
-import core._3_io._1_io.state.Zero;
-
 import java.io.*;
 import java.net.URL;
 import java.util.Arrays;
@@ -29,7 +26,7 @@ public class App01 {
         try(InputStream in = new ByteArrayInputStream(bytes);
             ByteArrayOutputStream out = new ByteArrayOutputStream()
             ) {
-            filter2(in, out, 8);
+            filter1(in, out, 8);
             byte[] b0 = out.toByteArray();
             System.out.println(Arrays.toString(b0));
         } catch (IOException e0) {
@@ -106,7 +103,7 @@ public class App01 {
         }
     }
 
-    public static void filter2(InputStream src, OutputStream dst, int buffSize) throws IOException {
+    /*public static void filter2(InputStream src, OutputStream dst, int buffSize) throws IOException {
         byte[] buff = new byte[buffSize];
         int count;
         while ( (count = src.read(buff)) != -1 ) {
@@ -116,5 +113,5 @@ public class App01 {
             }
             state.finish();
         }
-    }
+    }*/
 }

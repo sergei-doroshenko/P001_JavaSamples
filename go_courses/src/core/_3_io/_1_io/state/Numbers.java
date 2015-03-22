@@ -7,7 +7,7 @@ import java.io.OutputStream;
 /**
  * Created by Sergei on 09.03.2015.
  */
-public class Numbers extends State {
+public class Numbers extends AbstractState {
     private ByteArrayOutputStream buff = new ByteArrayOutputStream();
 
     public Numbers(OutputStream out) {
@@ -15,7 +15,7 @@ public class Numbers extends State {
     }
 
     @Override
-    public State next(byte value) throws IOException { // analog of doAction() method
+    public AbstractState next(byte value) throws IOException { // analog of doAction() method
         if (value == 0) {
             out.write(buff.toByteArray(), 0, buff.toByteArray().length);
             return new Zero(out);
@@ -26,7 +26,7 @@ public class Numbers extends State {
 
     }
 
-    @Override
+
     public void finish() throws IOException {
         out.write(buff.toByteArray(), 0, buff.toByteArray().length);
     }
