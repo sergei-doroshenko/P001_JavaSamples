@@ -16,6 +16,8 @@ public class App03_sb {
         */
 
         System.out.println(sb); // bloerper
+        /*hello.length() = 6*/
+        System.out.println(new StringBuilder("world").insert(0, "hello ", 0, 6).toString()); // hello world
     }
 
 }
