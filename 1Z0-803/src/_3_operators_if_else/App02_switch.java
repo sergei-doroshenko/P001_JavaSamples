@@ -25,5 +25,9 @@ public class App02_switch {
 
         // switch(8); // !!! NOT VALID !!!
 
+        int i = 10;
+        boolean flag = false;
+        // switch (i){ flag = true; } // !!! NOT VALID !!! must be case: or default:
+
     }
 }
