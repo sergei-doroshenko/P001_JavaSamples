@@ -3,7 +3,9 @@ package core._7_arrays;
 import java.util.Arrays;
 
 /**
- * Created by Sergei on 20.03.2015.
+ * Created by Sergei Doroshenko on 20.03.2015.
+ *
+ * Examples of array declaration and initialization
  */
 public class App00 {
     public static void main(String[] args) {
