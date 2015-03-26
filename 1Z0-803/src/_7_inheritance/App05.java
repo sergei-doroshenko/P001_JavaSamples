@@ -14,6 +14,8 @@ public class App05 {
         /* compilation error: b will never be a Bird (if b - subclass of Bat,
         it can't be subclass of Bird) */
         // if(b instanceof Bird) System.out.println("f is a Bird");
+        /* !!!! BUT !!!! */
+        if (b instanceof Flyer) System.out.println("b is a Flyer"); // because Flyer is an interface
     }
 }
 

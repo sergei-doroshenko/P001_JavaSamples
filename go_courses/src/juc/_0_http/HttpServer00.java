@@ -18,8 +18,8 @@ import java.util.Date;
  *
  * call it in browser on http://127.0.0.2:8183/
  */
-public class SocetServer00 {
-    private static Charset US_ASCII = new US_ASCII();
+public class HttpServer00 {
+
 
     public static void main (String[] args) throws IOException {
         byte[] ipAddr = new byte[]{127, 0, 0, 2};
@@ -42,11 +42,11 @@ public class SocetServer00 {
                 // READ request
                 byte[] request = HttpUtils.readRequestFully(in);
                 System.out.println("----------------------------------");
-                System.out.print(new String(request, US_ASCII));
+                System.out.print(new String(request, HttpUtils.US_ASCII));
                 System.out.println("---------------------------------");
 
                 // WRITE response
-                byte[] response = new Date().toString().getBytes(US_ASCII);
+                byte[] response = (new Date().toString() + new String(HttpUtils.HEADER_END) ).getBytes(HttpUtils.US_ASCII);
                 out.write(response);
             } finally {
                 socket.close();

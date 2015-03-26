@@ -1,13 +1,19 @@
 package juc._0_http;
 
+import sun.nio.cs.US_ASCII;
+
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.Charset;
 import java.util.Arrays;
 
 /**
  * Created by Sergei Doroshenko on 25.03.2015.
  */
 public class HttpUtils {
+
+    public static Charset US_ASCII = new US_ASCII();
+
     /**
      * HEADER_END - bytes array represents the end of http header.
      * Namely, characters sequence: \r\n\r\n or CR\LF\CR\LF
@@ -20,7 +26,7 @@ public class HttpUtils {
      *  so the new byte[]{13, 10, 13, 10} is analog of
      *  new byte[]{'\r', '\n', '\r', '\n'}
      */
-    private static byte[] HEADER_END = new byte[]{13, 10, 13, 10};
+    public static byte[] HEADER_END = new byte[]{13, 10, 13, 10};
 
     public static byte[] readRequestFully(InputStream in) throws IOException {
         byte[] buff = new byte[8192];
@@ -31,7 +37,7 @@ public class HttpUtils {
                 throw new RuntimeException("Incoming connection closed.");
             } else {
                 headerLen += count;
-                if (isRequestEnd(buff, headerLen)) {
+                if (isMessageEnd(buff, headerLen)) {
                     return Arrays.copyOfRange(buff, 0, headerLen);
                 }
                 if (headerLen == buff.length) {
@@ -42,7 +48,11 @@ public class HttpUtils {
         }
     }
 
-    private static boolean isRequestEnd(byte[] buff, int lenght) {
+    public static byte[] createResponse(String message) {
+        return (message + new String(HttpUtils.HEADER_END)).getBytes(HttpUtils.US_ASCII);
+    }
+
+   public static boolean isMessageEnd(byte[] buff, int lenght) {
         if (lenght < 4) return false;
 
         byte[] tail = Arrays.copyOfRange(buff, lenght - 4, lenght);
