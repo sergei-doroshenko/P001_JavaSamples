@@ -15,9 +15,24 @@ public class App03_sb {
         blo    erper
         */
 
-        System.out.println(sb); // bloerper
+        System.out.println("[" + sb + "]"); // bloerper
+        System.out.println("sb.length() = " + sb.length());
+        sb.setLength(20);
+        System.out.println("[" + sb + "]");
+        System.out.println("sb.length() = " + sb.length());
+
+        System.out.println("sb.capacity() = " + sb.capacity());
+        sb.ensureCapacity(100);
+        System.out.println("sb.capacity() = " + sb.capacity());
+
         /*hello.length() = 6*/
         System.out.println(new StringBuilder("world").insert(0, "hello ", 0, 6).toString()); // hello world
+
+
+
+
+
+
     }
 
 }

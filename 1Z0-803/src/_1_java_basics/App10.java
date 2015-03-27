@@ -1,4 +1,4 @@
-/**
+package _1_java_basics; /**
  * Created by Sergei on 27.02.2015.
  */
 import static java.lang.System.*;
