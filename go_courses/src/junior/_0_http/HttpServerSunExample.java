@@ -1,11 +1,10 @@
-package juc._0_http;
+package junior._0_http;
 
 import com.sun.net.httpserver.*;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.spi.HttpServerProvider;
 import sun.net.httpserver.DefaultHttpServerProvider;
 
-import javax.swing.text.html.parser.Entity;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;

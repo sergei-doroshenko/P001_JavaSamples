@@ -1,9 +1,5 @@
-package juc._0_http;
+package junior._0_http;
 
-import com.sun.deploy.net.HttpUtils;
-import sun.nio.cs.US_ASCII;
-
-import javax.xml.ws.spi.http.HttpHandler;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;

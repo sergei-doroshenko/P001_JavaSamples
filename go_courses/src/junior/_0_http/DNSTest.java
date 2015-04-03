@@ -1,4 +1,4 @@
-package juc._0_http;
+package junior._0_http;
 
 import sun.net.spi.nameservice.NameService;
 import sun.net.spi.nameservice.dns.DNSNameService;

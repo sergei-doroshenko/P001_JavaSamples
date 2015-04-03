@@ -1,10 +1,8 @@
-package juc._1_concurrent;
+package junior._1_concurrent;
 
 import core.lib.ThreadUtils;
 
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by Sergei on 01.04.2015.

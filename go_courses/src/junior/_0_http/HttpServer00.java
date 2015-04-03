@@ -1,16 +1,11 @@
-package juc._0_http;
+package junior._0_http;
 
-import sun.nio.cs.US_ASCII;
-
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.charset.Charset;
-import java.util.Arrays;
 import java.util.Date;
 
 /**

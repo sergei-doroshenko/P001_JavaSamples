@@ -1,4 +1,4 @@
-package juc._1_concurrent;
+package junior._1_concurrent;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;

@@ -1,4 +1,4 @@
-package juc._0_http;
+package junior._0_http;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;

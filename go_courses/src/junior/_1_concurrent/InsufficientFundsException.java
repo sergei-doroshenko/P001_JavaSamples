@@ -1,4 +1,4 @@
-package juc._1_concurrent;
+package junior._1_concurrent;
 
 /**
  * Created by Sergei on 01.04.2015.
