@@ -4,6 +4,10 @@ package _7_inheritance;
  * Created by Sergei on 02.03.2015.
  */
 public class TestClass implements T1, T2 {
+    static void m2() {};
+
+    protected TestClass(){/** constructor **/};
+
     public static void main(String[] args) {
         TestClass tc = new TestClass();
         tc.m1();

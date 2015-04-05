@@ -9,6 +9,9 @@ public class App04 {
 
         float f0 = 123;
         float f1 = 5.5f;
+        /**
+         * !!! need CAST !!!
+         */
         float f2 = (float) 5.5;
         float f3 = i0;
 
