@@ -34,8 +34,8 @@ public class ConditionBoundedBuffer<T> {
 
             ++count;
             notEmpty.signal();
-            System.out.println("T-" + Thread.currentThread().getId() +
-                    " PUT: " + x);
+            /*System.out.println("T-" + Thread.currentThread().getId() +
+                    " PUT: " + x);*/
         } finally {
             lock.unlock();
         }
@@ -57,6 +57,15 @@ public class ConditionBoundedBuffer<T> {
             count--;
             notFull.signal();
             return item;
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public boolean isEmpty() {
+        try {
+            lock.lock();
+            return count == 0;
         } finally {
             lock.unlock();
         }
