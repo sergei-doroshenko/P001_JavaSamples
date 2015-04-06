@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GoCourses.iml" filepath="$PROJECT_DIR$/GoCourses.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoCoursesWebApp/GoCoursesWebApp.iml" filepath="$PROJECT_DIR$/GoCoursesWebApp/GoCoursesWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReentrantBuffer/ReentrantBuffer.iml" filepath="$PROJECT_DIR$/ReentrantBuffer/ReentrantBuffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/go_courses/go_courses.iml" filepath="$PROJECT_DIR$/go_courses/go_courses.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_puzzlers/java_puzzlers.iml" filepath="$PROJECT_DIR$/java_puzzlers/java_puzzlers.iml" />
     </modules>
