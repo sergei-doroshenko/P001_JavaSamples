@@ -1,12 +1,5 @@
 package juc._1_reentrant_lock;
 
-import core.lib.ThreadUtils;
-
-import java.util.Random;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -29,7 +22,6 @@ public class ConditionBoundedBuffer<T> {
     //Blocks until notFull
     public void put(T x) throws InterruptedException {
         lock.lock();
-        System.err.println("count: " + count);
         try {
             while (count == items.length) {
                 notFull.await();
@@ -42,6 +34,8 @@ public class ConditionBoundedBuffer<T> {
 
             ++count;
             notEmpty.signal();
+            System.out.println("T-" + Thread.currentThread().getId() +
+                    " PUT: " + x);
         } finally {
             lock.unlock();
         }
@@ -66,5 +60,15 @@ public class ConditionBoundedBuffer<T> {
         } finally {
             lock.unlock();
         }
+    }
+
+    private void print() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = head; i <= tail; i++) {
+            sb.append("[");
+            sb.append(items[i]);
+            sb.append("]");
+        }
+        System.out.println(sb.toString());
     }
 }

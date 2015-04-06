@@ -5,24 +5,28 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Sergei on 03.04.2015.
+ * Created by Sergei on 05.04.2015.
  */
 public class App00 {
     public static void main(String[] args) {
-        final ConditionBoundedBuffer<Integer> buffer = new ConditionBoundedBuffer<>(4);
-        ExecutorService service = Executors.newFixedThreadPool(10);
-        for (int i = 0; i < 10; i++) {
-            service.submit(new WriterTask(buffer));
+        ExecutorService service = Executors.newCachedThreadPool();
+        ConditionBoundedBuffer<Integer> buffer = new ConditionBoundedBuffer<>(2);
+        int writers = 3, readers = 2;
+
+        for (int i = 0; i < readers; i++) {
+            service.submit(new ReaderTask00(buffer));
         }
 
-        for (int i = 0; i < 10; i++) {
-            service.submit(new ReaderTask(buffer));
+        for (int i = 0; i < writers; i++) {
+            service.submit(new WriterTask00(buffer));
         }
+
         service.shutdown();
         try {
-            service.awaitTermination(2000, TimeUnit.MILLISECONDS);
+            service.awaitTermination(10_000, TimeUnit.MILLISECONDS);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
     }
 }

@@ -1,4 +1,6 @@
-package _0_buffer;
+package juc._1_reentrant_lock;
+
+import core.lib.ThreadUtils;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -7,10 +9,9 @@ import java.util.concurrent.CountDownLatch;
  */
 public class App01 {
     public static void main(String[] args) {
-        BlockingQueue<Integer> buffer = new BlockingQueue<>(2);
+        ConditionBoundedBuffer<Integer> buffer = new ConditionBoundedBuffer<>(2);
         CountDownLatch startLatch = new CountDownLatch(1);
         int writers = 4, readers = 4;
-
 
         for (int i = 0; i < writers; i++) {
             new Thread(new WriterTask01(buffer, startLatch)).start();
@@ -20,11 +21,7 @@ public class App01 {
             new Thread(new ReaderTask01(buffer, startLatch)).start();
         }
 
-        try {
-            Thread.currentThread().sleep(9000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        ThreadUtils.sleep(1000);
 
         startLatch.countDown();
     }

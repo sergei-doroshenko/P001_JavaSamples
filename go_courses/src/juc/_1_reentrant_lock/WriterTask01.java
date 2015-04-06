@@ -1,4 +1,6 @@
-package _0_buffer;
+package juc._1_reentrant_lock;
+
+import core.lib.ThreadUtils;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
@@ -7,10 +9,10 @@ import java.util.concurrent.CountDownLatch;
  * Created by Sergei on 05.04.2015.
  */
 public class WriterTask01 implements Runnable {
-    private final BlockingQueue<Integer> queue;
+    private final ConditionBoundedBuffer<Integer> queue;
     private final CountDownLatch latch;
 
-    public WriterTask01(BlockingQueue<Integer> queue, CountDownLatch latch) {
+    public WriterTask01(ConditionBoundedBuffer<Integer> queue, CountDownLatch latch) {
         this.queue = queue;
         this.latch = latch;
     }
@@ -26,8 +28,8 @@ public class WriterTask01 implements Runnable {
         }
 
         while(true) {
+            ThreadUtils.sleep(rnd.nextInt(10) * 100);
             try {
-                Thread.sleep(rnd.nextInt(10) * 100);
                 queue.put(rnd.nextInt(400));
             } catch (InterruptedException e) {
                 e.printStackTrace();

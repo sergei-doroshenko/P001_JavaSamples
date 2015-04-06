@@ -1,15 +1,16 @@
-package _0_buffer;
+package juc._1_reentrant_lock;
+
+import core.lib.ThreadUtils;
 
 import java.util.Random;
-import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by Sergei on 05.04.2015.
  */
 public class WriterTask00 implements Runnable {
-    private final BlockingQueue<Integer> queue;
+    private final ConditionBoundedBuffer<Integer> queue;
 
-    public WriterTask00(BlockingQueue<Integer> queue) {
+    public WriterTask00(ConditionBoundedBuffer<Integer> queue) {
         this.queue = queue;
     }
 
@@ -18,8 +19,8 @@ public class WriterTask00 implements Runnable {
         Random rnd = new Random();
 
         while(true) {
+//            ThreadUtils.sleep(rnd.nextInt(10) * 100);
             try {
-                Thread.sleep(rnd.nextInt(10) * 100);
                 queue.put(rnd.nextInt(400));
             } catch (InterruptedException e) {
                 e.printStackTrace();
