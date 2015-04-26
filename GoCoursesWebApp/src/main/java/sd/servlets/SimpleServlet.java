@@ -1,3 +1,5 @@
+package sd.servlets;
+
 import com.sun.net.httpserver.HttpServer;
 
 import javax.servlet.ServletException;
@@ -15,7 +17,7 @@ public class SimpleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         resp.setContentType("text/html");
-        String message = "Hello Sergei";
+        String message = "Hello Sasha and Andrew!!!!";
         // Actual logic goes here.
         PrintWriter out = resp.getWriter();
         out.println("<h1>" + message + "</h1>");

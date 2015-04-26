@@ -6,16 +6,44 @@
 
     <groupId>org.sergei</groupId>
     <artifactId>goC</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
     <packaging>war</packaging>
 
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
-            <scope>provided</scope>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.1</version>
+        </dependency>
+
+        <!-- JSF -->
+        <dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-api</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-impl</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <!--<dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>mojarra-jsf-impl</artifactId>
+            <version>2.0.0-b04</version>
+        </dependency>-->
+
+
     </dependencies>
     <build>
         <plugins>
@@ -26,8 +54,10 @@
                 <version>2.2</version>
                 <configuration>
                     <server>TomcatServer</server>
-                    <path>/Test</path>
+                    <path>/${project.build.finalName}</path>
                     <url>http://localhost:8080/manager/text</url>
+                    <username>admin</username>
+                    <password>admin</password>
                 </configuration>
             </plugin>
         </plugins>
