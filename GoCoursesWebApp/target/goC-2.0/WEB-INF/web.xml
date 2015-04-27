@@ -7,16 +7,34 @@
         <param-name>javax.faces.PROJECT_STAGE</param-name>
         <param-value>Development</param-value>
     </context-param>
+    <!--<context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/app.xml</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>-->
 
     <servlet>
         <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>sd.servlets.SimpleServlet</servlet-class>
+        <servlet-class>sd.controllers.SimpleServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/Hello</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Products</servlet-name>
+        <servlet-class>sd.controllers.ProductAllController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Products</servlet-name>
+        <url-pattern>/prod</url-pattern>
+    </servlet-mapping>
     <!-- JSF mapping -->
     <servlet>
         <servlet-name>Faces Servlet</servlet-name>
@@ -46,4 +64,7 @@
         <welcome-file>faces/hello.xhtml</welcome-file>
     </welcome-file-list>
 
+    <listener>
+        <listener-class>sd.listeners.ContextInitializerListener</listener-class>
+    </listener>
 </web-app>

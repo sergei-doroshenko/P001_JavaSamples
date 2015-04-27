@@ -1,6 +1,4 @@
-package sd.servlets;
-
-import com.sun.net.httpserver.HttpServer;
+package sd.controllers;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
