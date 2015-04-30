@@ -52,6 +52,10 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
+        <url-pattern>*.jspx</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.faces</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
@@ -61,7 +65,8 @@
 
     <!-- Welcome page -->
     <welcome-file-list>
-        <welcome-file>faces/hello.xhtml</welcome-file>
+        <!--<welcome-file>faces/hello.xhtml</welcome-file>-->
+        <welcome-file>faces/orders.xhtml</welcome-file>
     </welcome-file-list>
 
     <listener>

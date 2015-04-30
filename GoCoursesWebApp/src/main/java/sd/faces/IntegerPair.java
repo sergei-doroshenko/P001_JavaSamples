@@ -7,6 +7,11 @@ public class IntegerPair {
     private int fst;
     private int snd;
 
+    public IntegerPair(int fst, int snd) {
+        this.fst = fst;
+        this.snd = snd;
+    }
+
     public int getFst() {
         return fst;
     }
