@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="GoCoursesWebApp:war">
     <output-path>$PROJECT_DIR$/GoCoursesWebApp/target</output-path>
-    <root id="archive" name="goC-2.0.war">
+    <root id="archive" name="web-app-3.0.war">
       <element id="artifact" artifact-name="GoCoursesWebApp:war exploded" />
     </root>
   </artifact>

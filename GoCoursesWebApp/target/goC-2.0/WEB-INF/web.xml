@@ -66,7 +66,8 @@
     <!-- Welcome page -->
     <welcome-file-list>
         <!--<welcome-file>faces/hello.xhtml</welcome-file>-->
-        <welcome-file>faces/orders.xhtml</welcome-file>
+        <welcome-file>faces/table.xhtml</welcome-file>
+        <!--<welcome-file>faces/orders.xhtml</welcome-file>-->
     </welcome-file-list>
 
     <listener>

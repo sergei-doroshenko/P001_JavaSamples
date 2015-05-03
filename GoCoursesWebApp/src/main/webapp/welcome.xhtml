@@ -14,7 +14,8 @@
     <div>Message: #{helloBean.message}</div>
     <div>Message2: #{helloBean.message2}</div>
     <div>Count: #{helloBean.count}</div>
-    <h:outputText></h:outputText>
-    <div>IntegerPair: #{helloBean.pair}</div>
+    <div>
+        IntegerPair:<h:outputText value="#{helloBean.pair}" converter="IntegerPairConverter"/>
+    </div>
 </h:body>
 </html>
