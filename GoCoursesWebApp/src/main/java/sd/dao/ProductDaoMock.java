@@ -9,6 +9,7 @@ import java.util.List;
  * Created by Sergei on 27.04.2015.
  */
 public class ProductDaoMock implements ProductDao {
+
     public List<Product> findAll() {
         List<Product> products = new ArrayList<Product>();
         products.add(new Product(1, "Apple"));

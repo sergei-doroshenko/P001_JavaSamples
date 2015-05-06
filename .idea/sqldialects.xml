@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/GoCoursesWebApp/src/main/java/sd/dao/ProductDaoJDBCImpl.java" dialect="HSQLDB" />
+    <file url="file://$PROJECT_DIR$/GoCoursesWebApp/src/main/resources/sql_scripts/data.sql" dialect="HSQLDB" />
+    <file url="file://$PROJECT_DIR$/GoCoursesWebApp/src/main/resources/sql_scripts/schema.sql" dialect="HSQLDB" />
+  </component>
+</project>
