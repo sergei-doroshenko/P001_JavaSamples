@@ -3,12 +3,11 @@
  * A Comprehensive OCPJP 7 Certification Guide
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
-package _03_ClassDesign.Listing_3_4;
-import graphicshape.Circle;
+package _03_ClassDesign.Listing_3_2;
 
 class Canvas {
 	void getArea() {
 		Circle  circle = new Circle();
-		circle.area(); 	// call to public method area(), outside package
+		circle.area(); 	//call to public method area(), outside package
 	}
 }

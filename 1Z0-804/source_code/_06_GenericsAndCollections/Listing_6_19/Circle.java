@@ -6,8 +6,6 @@
 
 // This program shows the importance of equals() and hashCode() methods
 
-import java.util.*;
-
 class Circle {
 	private int xPos, yPos, radius;
 	public Circle(int x, int y, int r) {

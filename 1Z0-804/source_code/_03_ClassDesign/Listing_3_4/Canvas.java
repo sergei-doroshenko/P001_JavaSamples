@@ -3,8 +3,7 @@
  * A Comprehensive OCPJP 7 Certification Guide
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
-package _03_ClassDesign.Listing_3_3;
-import graphicshape.Circle;
+package _03_ClassDesign.Listing_3_4;
 
 class Canvas {
 	void getArea() {
