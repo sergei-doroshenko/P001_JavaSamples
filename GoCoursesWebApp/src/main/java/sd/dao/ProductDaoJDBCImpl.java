@@ -28,8 +28,8 @@ public class ProductDaoJDBCImpl implements ProductDao {
         List<Product> result = new ArrayList<>();
 
         try (
-                Connection connetion = dataSource.getConnection();
-                Statement st = connetion.createStatement()
+                Connection connection = dataSource.getConnection();
+                Statement st = connection.createStatement()
         ) {
             ResultSet rs = st.executeQuery("select * from playground.products;");
             while (rs.next()) {
