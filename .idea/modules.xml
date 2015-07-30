@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1Z0-804/1Z0-804.iml" filepath="$PROJECT_DIR$/1Z0-804/1Z0-804.iml" />
       <module fileurl="file://$PROJECT_DIR$/AspectApp00/AspectApp00.iml" filepath="$PROJECT_DIR$/AspectApp00/AspectApp00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoCourses.iml" filepath="$PROJECT_DIR$/GoCourses.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoCoursesWebApp/GoCoursesWebApp.iml" filepath="$PROJECT_DIR$/GoCoursesWebApp/GoCoursesWebApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/encrypt/encrypt.iml" filepath="$PROJECT_DIR$/encrypt/encrypt.iml" />
