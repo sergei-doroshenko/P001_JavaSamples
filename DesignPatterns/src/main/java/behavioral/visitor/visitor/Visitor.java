@@ -1,7 +1,7 @@
-package visitor.visitor;
+package behavioral.visitor.visitor;
 
-import visitor.element.ElementA;
-import visitor.element.ElementB;
+import behavioral.visitor.element.ElementA;
+import behavioral.visitor.element.ElementB;
 
 /**
  * Created by Sergei on 30.07.2015.
