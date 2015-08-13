@@ -29,5 +29,10 @@ public class Regex8 {
 			/*System.out.println("1: " + m.group(1));
 			System.out.println("2: " + m.group(2));*/
 		}
+
+		String[] tokkens = "hello my darling".split("(?<=\\G.{2})");
+		for (String tokken : tokkens) {
+			System.out.println("[" + tokken + "]");
+		}
 	}
 }
