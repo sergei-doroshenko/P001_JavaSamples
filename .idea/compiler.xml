@@ -29,12 +29,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="configuration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AspectApp00" target="1.8" />
-      <module name="DesignPatterns" target="1.8" />
-      <module name="GoCoursesWebApp" target="1.8" />
+      <module name="configuration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
