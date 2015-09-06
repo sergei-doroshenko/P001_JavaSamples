@@ -33,7 +33,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="configuration" target="1.8" />
+      <module name="configuration" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
