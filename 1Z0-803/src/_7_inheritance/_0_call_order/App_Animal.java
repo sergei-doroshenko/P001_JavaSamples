@@ -10,7 +10,7 @@ public class App_Animal {
     }
 
     public static void test0() {
-        Animal ref = new Dog();
+        Animal ref = new Dog(300);
         /*Animal static block
         Dog static block
         Animal NON-static block

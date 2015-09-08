@@ -10,14 +10,15 @@ public class Dog extends Animal {
         System.out.println("Dog static block");
     }
 
-    public String a;
+    public int a = 20;
 
-    public Dog() {
-        this.a = "Dog";
-        System.out.println("Dog()");
+    public Dog(int x) {
+
+        //this.a = "Dog";
+        System.out.println("Dog(int); a = " + a);
     }
 
     {
-        System.out.println("Dog NON-static");
+        System.out.println("Dog NON-static; a = " + a);
     }
 }

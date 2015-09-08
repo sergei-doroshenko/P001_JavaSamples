@@ -11,14 +11,14 @@ public class Animal {
         System.out.println("Animal static block");
     }
 
-    public int a;
+    public int a = 10;
 
     public Animal() {
-        this.a = 10;
-        System.out.println("Animal()");
+
+        System.out.println("Animal(); a = " + a);
     }
 
     {
-        System.out.println("Animal NON-static block");
+        System.out.println("Animal NON-static block; a = " + a);
     }
 }
