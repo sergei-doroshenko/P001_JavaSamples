@@ -6,8 +6,8 @@ package behavioral.chain_of_responsibility;
 public class NegativeHandler extends AbstractHandler {
 
     @Override
-    public void handle(int number) {
-        if (number < 0) {
+    public void handle(Long number) {
+        if (number != null && number < 0) {
             System.out.println("NegativeHandler: " + number);
         } else {
             this.next.handle(number);
