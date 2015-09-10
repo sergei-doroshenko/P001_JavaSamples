@@ -5,22 +5,24 @@ package behavioral.command;
  */
 public class CutCommand implements Command {
     private Text text;
-    private String buffer;
+    private int start, length;
 
-    public CutCommand(Text text, String str) {
+    public CutCommand(Text text, int start, int length) {
+        if (start < 0 || length > text.size() - start) {
+            throw new IllegalStateException("Wrong indexes");
+        }
         this.text = text;
-        this.buffer = str;
+        this.start = start;
+        this.length = length;
     }
 
     @Override
     public void execute() {
-        text.cut(buffer);
-        buffer = null;
+        text.delete(this.start, start + length);
     }
 
     @Override
     public void undo() {
-        buffer = text.getFromBuffer();
-        text.paste(buffer);
+        text.insert(this.start);
     }
 }

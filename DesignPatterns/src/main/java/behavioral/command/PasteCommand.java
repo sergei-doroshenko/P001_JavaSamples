@@ -5,21 +5,23 @@ package behavioral.command;
  */
 public class PasteCommand implements Command {
     private Text text;
-    private String buffer;
+    private int start, end;
 
-    public PasteCommand(Text text) {
+    public PasteCommand(Text text, int start) {
+        if (start < 0) {
+            throw new IllegalStateException("Wrong indexes");
+        }
         this.text = text;
+        this.start = start;
     }
 
     @Override
     public void execute() {
-        buffer = text.getFromBuffer();
-        text.paste(buffer);
+        end = text.insert(start);
     }
 
     @Override
     public void undo() {
-        text.undoPaste(buffer);
-        buffer = null;
+        text.delete(start, end);
     }
 }

@@ -15,6 +15,8 @@ public class Editor {
     }
 
     public void undo() {
-        commands.pop().undo();
+        if (commands.size() > 0) {
+            commands.pop().undo();
+        }
     }
 }

@@ -5,22 +5,29 @@ package behavioral.command;
  */
 public class CopyCommand implements Command {
     private Text text;
-    private String buffer;
+    private int start, length;
 
-    public CopyCommand(Text text, String str) {
+    public CopyCommand(Text text, int start, int length) {
+        if (start < 0 || length > text.size() - start) {
+            throw new IllegalStateException("Wrong indexes");
+        }
         this.text = text;
-        this.buffer = str;
+        this.start = start;
+        this.length = length;
     }
 
     @Override
     public void execute() {
-        text.copy(buffer);
+        text.getBuffer().push(text.getPart(start, length));
     }
 
     @Override
     public void undo() {
-        if (buffer.equals(text.getBuffer().peek())) {
-            buffer = text.getFromBuffer();
+        if (text.getBuffer().size() > 0) {
+            text.getBuffer().pop();
+        } else {
+            System.out.println("Can't undo copy command");
         }
+
     }
 }

@@ -1,32 +1,41 @@
 package behavioral.command;
 
+import java.util.Scanner;
+
 /**
  * Created by Sergei on 09.09.2015.
  */
 public class Client {
     public static void main(String[] args) {
         Editor editor = new Editor();
-        Text text = new Text("Hello mr. Bond.");
+        Text text = new Text("In the town where I was born");
         System.out.println(text);
 
-        editor.add(new CutCommand(text, "Bond."));
-        System.out.println(text);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Commands: [c] - cut, [p] - paste, [cp] - copy, [u] - undo");
+        System.out.println("e.g. c 1 3");
 
-        editor.add(new CopyCommand(text, "mr."));
-        System.out.println(text);
+        String line;
+        while(true) {
+            line = scanner.nextLine().trim();
+            String[] parts = line.split(" ");
 
-        editor.add(new PasteCommand(text));
-        System.out.println(text);
+            if ( parts[0].equals("c") ) {
+                editor.add(new CutCommand(text, Integer.valueOf(parts[1]), Integer.valueOf(parts[2])));
 
-//        System.out.println(text);
+            } else if ( parts[0].equals("p") ) {
+                editor.add(new PasteCommand(text, Integer.valueOf(parts[1])));
 
-        editor.undo();
-        System.out.println(text);
+            } else if ( parts[0].equals("cp") ) {
+                editor.add(new CopyCommand(text, Integer.valueOf(parts[1]), Integer.valueOf(parts[2])));
 
-        editor.undo();
-        System.out.println(text);
+            } else if ( parts[0].equals("u") ) {
+                editor.undo();
+            } else {
+                System.out.println("Unknown command.");
+            }
 
-        editor.undo();
-        System.out.println(text);
+            System.out.println(text);
+        }
     }
 }
