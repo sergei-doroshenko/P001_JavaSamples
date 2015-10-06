@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+   http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+              version="1.2">
+
+    <!-- ***************************************
+  Navigation rules
+  *************************************** -->
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+        <navigation-case>
+            <from-outcome>/faces/hello</from-outcome>
+            <to-view-id>/pages/hello.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>table</from-outcome>
+            <to-view-id>/pages/table.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>table-inline</from-outcome>
+            <to-view-id>/pages/table-inline.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+    </navigation-rule>
+
+
+</faces-config>

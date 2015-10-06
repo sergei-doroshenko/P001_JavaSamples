@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<configuration>
+    <property>value</property>
+    <nestedproperty>
+        <arrayvalue>0,1,2,3,4</arrayvalue>
+        <property>anothervalue</property>
+    </nestedproperty>
+</configuration>

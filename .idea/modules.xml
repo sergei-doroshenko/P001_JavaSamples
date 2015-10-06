@@ -3,9 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1Z0-803/1Z0-803.iml" filepath="$PROJECT_DIR$/1Z0-803/1Z0-803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1Z0-804/1Z0-804.iml" filepath="$PROJECT_DIR$/1Z0-804/1Z0-804.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileRename/FileRename.iml" filepath="$PROJECT_DIR$/FileRename/FileRename.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoCourses.iml" filepath="$PROJECT_DIR$/GoCourses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/encrypt/encrypt.iml" filepath="$PROJECT_DIR$/encrypt/encrypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/go_courses/go_courses.iml" filepath="$PROJECT_DIR$/go_courses/go_courses.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_puzzlers/java_puzzlers.iml" filepath="$PROJECT_DIR$/java_puzzlers/java_puzzlers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcip/jcip.iml" filepath="$PROJECT_DIR$/jcip/jcip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoCoursesWebApp/src/main/main.iml" filepath="$PROJECT_DIR$/GoCoursesWebApp/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AspectApp00/src/main/main1.iml" filepath="$PROJECT_DIR$/AspectApp00/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/src/main/main2.iml" filepath="$PROJECT_DIR$/DesignPatterns/src/main/main2.iml" />
     </modules>
   </component>
 </project>

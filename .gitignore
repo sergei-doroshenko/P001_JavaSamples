@@ -13,7 +13,7 @@ hs_err_pid*
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
-#*.iml
+*.iml
 
 ## Directory-based project format:
 .idea/
@@ -33,7 +33,7 @@ hs_err_pid*
 
 # Gradle:
 .idea/gradle.xml
-.idea/libraries
+#.idea/libraries
 
 # Mongo Explorer plugin:
 # .idea/mongoSettings.xml
