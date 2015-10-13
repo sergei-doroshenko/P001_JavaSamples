@@ -1,3 +1,5 @@
+package _06_GenericsAndCollections.Listing_6_4;
+
 class BoxPrinterTest3 {
 	public static void main(String []args) {
 		BoxPrinter<Integer> value1 = new BoxPrinter<Integer>(new Integer(10)); 

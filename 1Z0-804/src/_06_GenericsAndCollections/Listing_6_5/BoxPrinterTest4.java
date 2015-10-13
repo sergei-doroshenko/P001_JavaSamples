@@ -1,3 +1,5 @@
+package _06_GenericsAndCollections.Listing_6_5;
+
 /*------------------------------------------------------------------------------
  * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
  * A Comprehensive OCPJP 7 Certification Guide
@@ -12,6 +14,6 @@ class BoxPrinterTest4 {
 		BoxPrinter<String> value2 = new BoxPrinter<String>("Hello world"); 
 		System.out.println(value2);
 		// OOPs! by mistake, we did put String in an Integer 
-		Integer intValue2 = value2.getValue(); 
+		//Integer intValue2 = value2.getValue();
 	}
 }
