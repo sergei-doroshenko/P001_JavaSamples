@@ -1,4 +1,6 @@
 package _08_JavaIOFundamentals;
+import util.IOUtils;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
@@ -10,12 +12,9 @@ import java.io.IOException;
 // syntax: java Copy SrcFile DstFile 
 // copies ScrFile to DstFile; over-writes the DstFile if it already exits 
 class Copy {
-	public static void main(String []files) {
-		if(files.length != 2) {
-			System.err.println("Incorrect syntax. Correct syntax: Copy SrcFile DstFile");
-			System.exit(-1); 
-		}
+	public static void main(String []args) {
 
+		String []files = IOUtils.readArgs();
 		String srcFile = files[0]; 
 		String dstFile = files[1]; 
 		// try opening the source and destination file 

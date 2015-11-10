@@ -15,17 +15,17 @@ class Tokenize {
 	public static void main(String []args) {
 		// read the input file 
 		if(args.length != 1) {
-System.err.println("pass the name of the file to be read as an argument");
+			System.err.println("pass the name of the file to be read as an argument");
 			System.exit(-1); 
 		}
 		String fileName = args[0]; 
 		// use a TreeSet<String> which will automatically sort the words 
-// in alphabetical order 
+		// in alphabetical order
 		Set<String> words = new TreeSet<>(); 
 		try ( Scanner tokenizingScanner = new Scanner(new FileReader(fileName)) ) {
 			// set the delimiter for text as non-words (special characters, 
 			// white-spaces, etc), meaning that all words other than punctuation 
-// characters, and white-spaces will be returned 
+			// characters, and white-spaces will be returned
 			tokenizingScanner.useDelimiter("\\W"); 
 			while(tokenizingScanner.hasNext()) {
 				String word = tokenizingScanner.next(); 
