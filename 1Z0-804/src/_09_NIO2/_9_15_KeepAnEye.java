@@ -1,14 +1,14 @@
-/*------------------------------------------------------------------------------
- * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
- * A Comprehensive OCPJP 7 Certification Guide
- * by SG Ganesh and Tushar Sharma
-------------------------------------------------------------------------------*/
+package _09_NIO2;
+
 import java.io.IOException;
 import java.nio.file.*;
 
-public class KeepAnEye {
+public class _9_15_KeepAnEye {
 	public static void main(String[] args) {
-		Path path = Paths.get("..\\src");
+		Path currentRelativePath = Paths.get("").toAbsolutePath();
+		System.out.println(currentRelativePath);
+		Path path = Paths.get("./src");
+
 		WatchService watchService = null;
 		try {
 			watchService = path.getFileSystem().newWatchService();
@@ -27,12 +27,12 @@ public class KeepAnEye {
 			}
 			// iterate for each event
 			for(WatchEvent<?> event:key.pollEvents()){
-				switch(event.kind().name()){
+				switch(event.kind().name()) {
 				case "OVERFLOW":
 					System.out.println("We lost some events");
 					break;
 				case "ENTRY_MODIFY":
-System.out.println("File " + event.context() + " is changed!");
+					System.out.println("File " + event.context() + " is changed!");
 					break;
 				}
 			}
