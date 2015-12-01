@@ -1,5 +1,6 @@
 package util;
 
+import java.nio.Buffer;
 import java.util.Scanner;
 
 /**
@@ -15,4 +16,10 @@ public class IOUtils {
 
     public static String[] readArgs() {
         return readString().split("\\s");
-    }}
+    }
+
+    public static String info(Buffer buffer) {
+        return "capacity: " + buffer.capacity() + ", limit: " + buffer.limit() + ", position: " + buffer.position();
+    }
+
+}

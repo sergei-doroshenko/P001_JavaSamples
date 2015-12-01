@@ -1,4 +1,4 @@
-package juc._0_http;
+package junior._0_http;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,7 +12,7 @@ import java.util.Date;
  */
 public class SocetServer {
     public static void main (String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(82);
+        ServerSocket serverSocket = new ServerSocket(1024);
         while (true) {
             System.out.println("wait for TCP-connection...");
             // create new socket
@@ -21,8 +21,7 @@ public class SocetServer {
 
             try (InputStream in = socket.getInputStream();
                 OutputStream out = socket.getOutputStream()) {
-                // byte[] request = HttpUtils.readRequestFully(in);
-                byte[] request = null;
+                byte[] request = HttpUtils.readRequestFully(in);
                 System.out.println("----------------------------------");
                 System.out.println(new String(request));
                 System.out.println("---------------------------------");

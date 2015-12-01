@@ -1,5 +1,7 @@
 package junior._0_http;
 
+import junior._0_http.HttpUtils;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;

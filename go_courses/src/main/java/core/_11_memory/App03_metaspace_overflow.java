@@ -71,7 +71,7 @@ public class App03_metaspace_overflow {
                     FileWriter writer = new FileWriter(sourceFile);
 
                     writer.write(
-                /*"package core._11_memory_overflow; \n" +*/
+                /*"package main.java.core._11_memory_overflow; \n" +*/
                             "public class " + name + " { \n" +
                                     " public void doit() { \n" +
                                     "   System.out.println(\"Hello world\") ;\n" +

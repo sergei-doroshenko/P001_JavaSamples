@@ -65,7 +65,7 @@ public class App03_permgen_overflow {
                     FileWriter writer = new FileWriter(sourceFile);
 
                     writer.write(
-                /*"package core._11_memory_overflow; \n" +*/
+                /*"package main.java.core._11_memory_overflow; \n" +*/
                             "public class " + name + " { \n" +
                                     " public void doit() { \n" +
                                     "   System.out.println(\"Hello world\") ;\n" +
@@ -94,7 +94,7 @@ public class App03_permgen_overflow {
                     sourceFile.deleteOnExit();
                 }
             };
-            Object object = loader.loadClass("core._11_memory_overflow.PermgenTest").newInstance();
+            Object object = loader.loadClass("main.java.core._11_memory_overflow.PermgenTest").newInstance();
             list.add(object);
             System.out.println(list.size());
         }

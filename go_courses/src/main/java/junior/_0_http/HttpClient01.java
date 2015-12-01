@@ -1,5 +1,7 @@
 package junior._0_http;
 
+import junior._0_http.HttpUtils;
+
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;

@@ -28,7 +28,7 @@ public class HttpServer01 {
             System.out.println("wait for TCP-connection...");
             final Socket socket = serverSocket.accept(); // create and return socket (TCP handshake)
             System.out.println("get one!");
-            threadPool.submit(new HttpHandler(socket));
+            threadPool.submit(new junior._0_http.HttpHandler(socket));
         }
     }
 }
