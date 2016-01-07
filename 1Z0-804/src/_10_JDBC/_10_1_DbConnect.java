@@ -1,12 +1,10 @@
-/*------------------------------------------------------------------------------
- * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
- * A Comprehensive OCPJP 7 Certification Guide
- * by SG Ganesh and Tushar Sharma
-------------------------------------------------------------------------------*/
-import java.sql.*;
+package _10_JDBC;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 // The class attempts to acquire a connection with the database
-class DbConnect {
+public class _10_1_DbConnect {
   	public static void main(String[] args) {
   		// url points to jdbc protocol : mysql subprotocol; localhost is the address 
   		// of the server where we installed our DBMS (i.e. on local machine) and 
@@ -17,9 +15,9 @@ class DbConnect {
 		// we login as "root" user with password "mysql123" 
 	  	String userName = "root"; 
 	  	String password = "mysql123";
-	  	try (Connection connection = DriverManager.getConnection
-(url + database, userName, password)){
+	  	try (Connection connection = DriverManager.getConnection(url + database, userName, password)){
 	  		System.out.println("Database connection: Successful");
+			_10_9_DbConnectionMetaData.main(null);
 	  	} catch (Exception e) {
 	  		System.out.println("Database connection: Failed");
 		  	e.printStackTrace();
