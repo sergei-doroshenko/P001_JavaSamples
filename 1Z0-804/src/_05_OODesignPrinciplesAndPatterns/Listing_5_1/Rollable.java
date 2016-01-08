@@ -4,7 +4,7 @@ package _05_OODesignPrinciplesAndPatterns.Listing_5_1;/*------------------------
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
 
-// Rollable interface can be implemented by circular shapes such as Circle and Ellipse 
+// Rollable interface can be implemented by circular shapes such as _6_19_Circle and Ellipse
 public interface Rollable {
 	void roll(float degree);
 }

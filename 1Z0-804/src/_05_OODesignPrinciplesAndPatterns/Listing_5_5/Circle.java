@@ -5,7 +5,7 @@ package _05_OODesignPrinciplesAndPatterns.Listing_5_5;
  * A Comprehensive OCPJP 7 Certification Guide
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
-// Circle class "informs" (i.e., "notifies") Canvas and ShapeArchiver whenever it gets "changed"
+// _6_19_Circle class "informs" (i.e., "notifies") Canvas and ShapeArchiver whenever it gets "changed"
 // by calling the update method of these two classes  
 public class Circle {
 	private Point center;

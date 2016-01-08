@@ -11,11 +11,11 @@ public class Circle implements Shape {
 		xPos = x;
 		yPos = y;
         		radius = r;
-        		System.out.println("Circle constructor");
+        		System.out.println("_6_19_Circle constructor");
         	}
 	@Override
 	public void draw() {
-		System.out.println("Circle draw()");
+		System.out.println("_6_19_Circle draw()");
 		// draw() implementation
 	}
 	@Override

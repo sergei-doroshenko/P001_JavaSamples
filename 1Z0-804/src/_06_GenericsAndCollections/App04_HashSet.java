@@ -12,7 +12,7 @@ public class App04_HashSet {
     public static void main(String []args) {
         Set<Circle> circleList = new HashSet<Circle>();
         circleList.add(new Circle(10, 20, 5));
-        System.out.print("Contains Circle(10, 20, 5): ");
+        System.out.print("Contains _6_19_Circle(10, 20, 5): ");
         System.out.println(circleList.contains(new Circle(10, 20, 5))); // true
 
         circleList.add(new Circle(10, 20, 5));
@@ -59,7 +59,7 @@ class Circle {
 
     @Override
     public String toString() {
-        return "Circle{" +
+        return "_6_19_Circle{" +
                 "xPos=" + xPos +
                 ", yPos=" + yPos +
                 ", radius=" + radius +

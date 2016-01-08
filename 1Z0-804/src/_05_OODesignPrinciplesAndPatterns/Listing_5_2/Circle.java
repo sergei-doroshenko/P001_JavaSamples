@@ -6,7 +6,7 @@ package _05_OODesignPrinciplesAndPatterns.Listing_5_2;
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
 public class Circle {
-	private Point center;	// Circle "contains" a Point object 
+	private Point center;	// _6_19_Circle "contains" a Point object
 	private int radius;
 	public Circle(int x, int y, int r) {	
 		center = new Point(x, y); 

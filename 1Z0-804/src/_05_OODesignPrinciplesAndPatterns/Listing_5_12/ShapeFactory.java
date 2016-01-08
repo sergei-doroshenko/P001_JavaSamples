@@ -7,7 +7,7 @@ package _05_OODesignPrinciplesAndPatterns.Listing_5_12;/*-----------------------
 public class ShapeFactory {
 	 public static Shape getShape(String sourceType) {
 		switch(sourceType) {
-		case "Circle":
+		case "_6_19_Circle":
 			return new Circle(10, 10, 20);
 		case "Rectangle":
 			return new Rectangle(10, 20);

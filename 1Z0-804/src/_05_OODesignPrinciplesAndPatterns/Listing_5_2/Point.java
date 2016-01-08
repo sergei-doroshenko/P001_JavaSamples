@@ -5,7 +5,7 @@ package _05_OODesignPrinciplesAndPatterns.Listing_5_2;
  * A Comprehensive OCPJP 7 Certification Guide
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
-// Point is an independent class and here we are using it with Circle class 
+// Point is an independent class and here we are using it with _6_19_Circle class
 class Point {
 	private int xPos;
 	private int yPos;

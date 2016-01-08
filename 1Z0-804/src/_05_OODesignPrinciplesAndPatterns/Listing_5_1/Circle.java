@@ -4,7 +4,7 @@ package _05_OODesignPrinciplesAndPatterns.Listing_5_1;/*------------------------
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
 
-// Circle is a concrete class that "is-a" subtype of Shape; you can roll it and hence implements Rollable 
+// _6_19_Circle is a concrete class that "is-a" subtype of Shape; you can roll it and hence implements Rollable
 public class Circle extends Shape implements Rollable {
 	private int xPos, yPos, radius;
 	public Circle(int x, int y, int r) {
