@@ -2,9 +2,11 @@ package _06_GenericsAndCollections;
 
 // This program demonstrates the usage of ListIterator
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
 
-public class ListIteratorTest {
+public class _6_15_ListIteratorTest {
 	public static void main(String []args) {
 		String palStr = "abcba"; 
 		List<Character> palindrome = new LinkedList<>();

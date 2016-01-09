@@ -2,9 +2,10 @@ package _06_GenericsAndCollections;
 
 // This program shows the usage of Iterator
 
-import java.util.*; 
+import java.util.ArrayList;
+import java.util.Iterator;
 
-public class TestIterator {
+public class _6_14_TestIterator {
     public static void main(String []args) {
          ArrayList<Integer> nums = new ArrayList<>();
          for(int i = 1; i < 10; i++) 

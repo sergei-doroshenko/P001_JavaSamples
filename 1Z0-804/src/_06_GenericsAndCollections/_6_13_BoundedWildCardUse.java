@@ -2,9 +2,10 @@ package _06_GenericsAndCollections;
 
 // This program demonstrates the usage of bounded wild cards
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class BoundedWildCardUse {
+public class _6_13_BoundedWildCardUse {
 	public static Double sum(List<? extends Number> numList) {
 		Double result = 0.0;
 		for(Number num : numList) {

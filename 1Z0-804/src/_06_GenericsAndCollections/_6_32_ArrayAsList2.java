@@ -2,9 +2,11 @@ package _06_GenericsAndCollections;
 
 // This program demonstrates the usage of arrays as list
 
-import java.util.*; 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-public class ArrayAsList2{
+public class _6_32_ArrayAsList2 {
 	public static void main(String []args) {
 		Double [] temperatureArray = {31.1, 30.0, 32.5, 34.9, 33.7, 27.8};
 		System.out.println("The original array is:     " + Arrays.toString(temperatureArray));

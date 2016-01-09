@@ -1,9 +1,10 @@
 package _06_GenericsAndCollections;
 // This program demonstrates the usage of navigable tree interface and TreeMap class
 
-import java.util.*;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 
-public class NavigableMapTest {
+public class _6_20_NavigableMapTest {
 	public static void main(String []args) {
 		NavigableMap<Integer, String> examScores = new TreeMap<>();
 

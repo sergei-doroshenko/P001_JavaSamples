@@ -1,8 +1,9 @@
 package _06_GenericsAndCollections;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 // This program demonstrates the usage of wild card parameters
-class WildCardUse {
+class _6_12_WildCardUse {
 	static void printList(List<?> list){
 		for(Object l:list)
 			System.out.println("[" + l + "]");

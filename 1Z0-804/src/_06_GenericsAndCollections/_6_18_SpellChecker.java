@@ -1,8 +1,9 @@
 package _06_GenericsAndCollections;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 //This program shows the usage of HashMap class
-public class SpellChecker {
+public class _6_18_SpellChecker {
       public static void main(String []args) {
             Map<String, String> misspeltWords = new HashMap<>();
             misspeltWords.put("calender", "calendar");

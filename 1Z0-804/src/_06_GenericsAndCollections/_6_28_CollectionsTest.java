@@ -1,9 +1,10 @@
 package _06_GenericsAndCollections;
 
 // It demonstrates sorting on Arrays
-import java.util.*;
 
-public class CollectionsTest {
+import java.util.Arrays;
+
+public class _6_28_CollectionsTest {
 	public static void  main(String []args) {
 		String [] strArr = { "21", "1", "111", "12", "123" };
 		Arrays.sort(strArr);

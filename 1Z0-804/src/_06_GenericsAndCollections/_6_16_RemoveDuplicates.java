@@ -2,9 +2,11 @@ package _06_GenericsAndCollections;
 
 // This program demonstrates the usage of HashSet class 
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
-public class RemoveDuplicates {
+public class _6_16_RemoveDuplicates {
 	public static void main(String []args) {
 		String tongueTwister = "I feel, a feel, a funny feel, a funny feel I feel, if you feel the feel  I feel, I feel the feel you feel";
 		Set<String> words = new HashSet<>();

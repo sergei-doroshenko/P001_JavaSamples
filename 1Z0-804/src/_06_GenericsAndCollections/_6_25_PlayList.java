@@ -2,9 +2,11 @@ package _06_GenericsAndCollections;
 
 // This program demonstrates some of the useful methods in Collections class
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
-public class PlayList {
+public class _6_25_PlayList {
 	public static void main(String []args) {
 		// let’s create a list of some Michael Jackson’s songs  	
 		List<String> playList = new LinkedList<>();
