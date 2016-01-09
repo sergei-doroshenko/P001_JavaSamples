@@ -1,0 +1,13 @@
+To start or stop MySQL Service on Windows.
+net stop MySQL
+net start MySQL.
+
+mysql> use someDatabase;
+mysql> source \home\user\Desktop\test.sql;
+mysql> source D:\Soft\DB\MySQL\create_table.sql;
+
+mysql -u yourusername -p yourpassword yourdatabase
+mysql>CREATE DATABASE a_new_database_name
+mysql -u yourusername -p yourpassword a_new_database_name < text_file
+
+mysql -u yourusername -p yourpassword yourdatabase < query_file > results_file
