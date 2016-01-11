@@ -1,20 +1,18 @@
-/*------------------------------------------------------------------------------
- * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
- * A Comprehensive OCPJP 7 Certification Guide
- * by SG Ganesh and Tushar Sharma
-------------------------------------------------------------------------------*/
-import java.util.*;
-import java.util.zip.*;
-import java.io.*;
+package _11_ExceptionsAndAssertions;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 // class ZipTextFile takes the name of a text file as input and creates a zip file 
 // after compressing that text file. 
 
-class ZipTextFile {
+class _11_11_ZipTextFile {
 	public static final int CHUNK = 1024; // to help copy chunks of 1KB 
 	public static void main(String []args) {
 		if(args.length == 0) {
-System.out.println("Pass the name of the file in the current directory to be zipped as an argument");
+			System.out.println("Pass the name of the file in the current directory to be zipped as an argument");
 			System.exit(-1); 
 		}
 		
@@ -24,21 +22,22 @@ System.out.println("Pass the name of the file in the current directory to be zip
 
 		byte [] buffer = new byte[CHUNK]; 
 		// these constructors can throw FileNotFoundException
-try (ZipOutputStream zipFile = new ZipOutputStream(new FileOutputStream(zipFileName)); FileInputStream fileIn = new FileInputStream(fileName)) {
+		try (ZipOutputStream zipFile = new ZipOutputStream(new FileOutputStream(zipFileName));
+			 FileInputStream fileIn = new FileInputStream(fileName)) {
 			// putNextEntry can throw IOException
-zipFile.putNextEntry(new ZipEntry(fileName)); 	 
+			zipFile.putNextEntry(new ZipEntry(fileName));
 			int lenRead = 0; // variable to keep track of number of bytes 
-// successfully read 
+			// successfully read
 			// copy the contents of the input file into the zip file 
 			while((lenRead = fileIn.read(buffer)) > 0) {	
 				// both read and write methods can throw IOException
-zipFile.write (buffer, 0, lenRead);			 
+				zipFile.write (buffer, 0, lenRead);
 			}
 			// the streams will be closed automatically because they are 
-// within try-with-resources statement 
+			// within try-with-resources statement
 		}
 		// this can result in multiple exceptions thrown from the try block; 
-// use "suppressed exceptions" to get the exceptions that were suppressed!
+		// use "suppressed exceptions" to get the exceptions that were suppressed!
 		catch(Exception e) {
 			System.out.println("The caught exception is: " + e);
 			System.out.print("The suppressed exceptions are: ");  
