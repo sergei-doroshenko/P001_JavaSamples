@@ -1,14 +1,18 @@
-/*------------------------------------------------------------------------------
- * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
- * A Comprehensive OCPJP 7 Certification Guide
- * by SG Ganesh and Tushar Sharma
-------------------------------------------------------------------------------*/
-import java.io.*;
-import java.util.*;
+package _11_ExceptionsAndAssertions;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.Scanner;
 
 // This interface is meant for implemented by classes that would read an integer from a file 
 interface IntReader {
 	int readIntFromFile() throws IOException; 
+}
+
+interface IntParser {
+	int readIntFromFile() throws ParseException;
 }
 
 class ThrowsClause4 implements IntReader {
@@ -19,5 +23,5 @@ class ThrowsClause4 implements IntReader {
 		return consoleScanner.nextInt(); 
 	}
 	// main method elided in this code since the focus here is to understand 
-// issues related to overriding when throws clause is present
+	// issues related to overriding when throws clause is present
 }
