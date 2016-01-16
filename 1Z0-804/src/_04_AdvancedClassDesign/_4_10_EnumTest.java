@@ -1,12 +1,9 @@
-/*------------------------------------------------------------------------------
- * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
- * A Comprehensive OCPJP 7 Certification Guide
- * by SG Ganesh and Tushar Sharma
-------------------------------------------------------------------------------*/
-public class EnumTest {
+package _04_AdvancedClassDesign;
+
+public class _4_10_EnumTest {
 	PrinterType printerType;
 
-	public EnumTest(PrinterType pType) {
+	public _4_10_EnumTest(PrinterType pType) {
 		printerType = pType;
 	}
 
@@ -27,9 +24,9 @@ public class EnumTest {
 	}
 
 	public static void main(String[] args) {
-		EnumTest enumTest1 = new EnumTest(PrinterType.LASER);
+		_4_9_EnumTest enumTest1 = new _4_9_EnumTest(PrinterType.LASER);
 		enumTest1.feature();
-		EnumTest enumTest2 = new EnumTest(PrinterType.INKJET);
+		_4_9_EnumTest enumTest2 = new _4_9_EnumTest(PrinterType.INKJET);
 		enumTest2.feature();
 	}
 }

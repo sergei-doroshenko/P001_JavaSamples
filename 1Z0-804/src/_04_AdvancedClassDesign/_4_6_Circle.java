@@ -1,9 +1,11 @@
+package _04_AdvancedClassDesign;
+
 /*------------------------------------------------------------------------------
  * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
  * A Comprehensive OCPJP 7 Certification Guide
  * by SG Ganesh and Tushar Sharma
 ------------------------------------------------------------------------------*/
-public class Circle {
+public class _4_6_Circle {
 	// define Point as an inner class within Circle class 
 	class Point {
 		private int xPos;
@@ -22,7 +24,7 @@ public class Circle {
 	// make use of the inner class for declaring a field 
 	private Point center;
 	private int radius;
-	public Circle(int x, int y, int r) {	
+	public _4_6_Circle(int x, int y, int r) {
 		// note how to make use of the inner class to instantiate it 
 		center = this.new Point(x, y); 
         		radius = r;
@@ -33,7 +35,7 @@ public class Circle {
 	}
 
 	public static void main(String []s) {
-		System.out.println(new Circle(10, 10, 20));
+		System.out.println(new _4_6_Circle(10, 10, 20));
 	}	 
 	// other methods such as area are elided 
 }

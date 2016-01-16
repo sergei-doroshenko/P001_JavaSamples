@@ -1,18 +1,21 @@
-/*------------------------------------------------------------------------------
- * Oracle Certified Professional Java SE 7 Programmer Exams 1Z0-804 and 1Z0-805: 
- * A Comprehensive OCPJP 7 Certification Guide
- * by SG Ganesh and Tushar Sharma
-------------------------------------------------------------------------------*/
-// define an enum for classifying printer types 
+package _04_AdvancedClassDesign;
+
+// define an enum for classifying printer types
 enum PrinterType {
-	DOTMATRIX, INKJET, LASER
+	DOTMATRIX, INKJET, LASER;
+
+	private String printPageCapacity;
+
+	public String getPrintPageCapacity() {
+		return printPageCapacity;
+	}
 }
 
 // test the enum now 
-public class EnumTest {
+public class _4_9_EnumTest {
 	PrinterType printerType;
 
-	public EnumTest(PrinterType pType) {
+	public _4_9_EnumTest(PrinterType pType) {
 		printerType = pType;
 	}
 	
@@ -32,7 +35,7 @@ public class EnumTest {
 	}
 
 	public static void main(String[] args) {
-		EnumTest enumTest = new EnumTest(PrinterType.LASER);
+		_4_9_EnumTest enumTest = new _4_9_EnumTest(PrinterType.LASER);
 		enumTest.feature();
 	}
 }
