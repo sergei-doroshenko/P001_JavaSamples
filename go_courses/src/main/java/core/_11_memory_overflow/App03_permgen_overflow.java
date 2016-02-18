@@ -14,25 +14,48 @@ import java.util.List;
 
 /**
  * Created by Sergei on 05.10.2015.
+ * When run with JVM option:
+ * -XX:MaxMetaspaceSize=64m
+ *
+ * resulted in OutOfMemoryError
+ * e.g. of output:
+ * 9140 // number of objects
+ * 9141
+ * Exception in thread "main" java.lang.OutOfMemoryError: Metaspace
+ *
  */
 public class App03_permgen_overflow {
+    // /home/sergei/projects/idea_projects/goCourses/out/production/go_courses/core/_11_memory_overflow/PermgenTest.class
+    // java version
+    //  public static final String OUTPUT_DIR = "D:\\IdeaProjects\\GoCourses\\out\\production\\go_courses\\core\\_11_memory_overflow";
+    //  public static final String SOURCE_DIR = "D:\\IdeaProjects\\GoCourses\\go_courses\\src\\core\\_11_memory_overflow\\";
+    // linux version
+    public static final String OUTPUT_DIR = "/home/sergei/projects/idea_projects/goCourses/out/production/go_courses/core/_11_memory_overflow/";
+    public static final String SOURCE_DIR = "/home/sergei/projects/idea_projects/goCourses/go_courses/src/main/java/core/_11_memory_overflow/";
+
+
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+
         List<Object> list = new ArrayList<>();
+
         for(;;) {
             ClassLoader loader = new ClassLoader() {
 
-                public static final String OUTPUT_DIR = "D:\\IdeaProjects\\GoCourses\\out\\production\\go_courses\\core\\_11_memory_overflow";
-                public static final String SOURCE_DIR = "D:\\IdeaProjects\\GoCourses\\go_courses\\src\\core\\_11_memory_overflow\\";
-
                 @Override
                 public Class<?> loadClass(String name) throws ClassNotFoundException {
-                    if(!name.startsWith("Permgen"))
+
+//                    String className = name.substring(name.lastIndexOf(".")+1);
+                    String className = name;
+
+                    if(!className.startsWith("Permgen"))
                         return super.loadClass(name);
 
                     try {
-                        createClass(name);
+                        createClass(className);
 
-                        String url = "file:D:\\IdeaProjects\\GoCourses\\out\\production\\go_courses\\core\\_11_memory_overflow\\" + name + ".class";
+//                        String url = "file:D:\\IdeaProjects\\GoCourses\\out\\production\\go_courses\\core\\_11_memory_overflow\\" + name + ".class";
+//                        String url = "file:/home/sergei/projects/idea_projects/goCourses/out/production/go_courses/core/_11_memory_overflow/" + name + ".class";
+                        String url = "file:" + OUTPUT_DIR + name + ".class";
                         URL myUrl = new URL(url);
                         URLConnection connection = myUrl.openConnection();
                         InputStream input = connection.getInputStream();
@@ -65,12 +88,12 @@ public class App03_permgen_overflow {
                     FileWriter writer = new FileWriter(sourceFile);
 
                     writer.write(
-                /*"package main.java.core._11_memory_overflow; \n" +*/
-                            "public class " + name + " { \n" +
-                                    " public void doit() { \n" +
-                                    "   System.out.println(\"Hello world\") ;\n" +
-                                    " }\n" +
-                                    "}"
+                    /*"package main.java.core._11_memory_overflow; \n" +*/
+                    "public class " + name + " { \n" +
+                        " public void doit() { \n" +
+                        "   System.out.println(\"Hello world\") ;\n" +
+                        " }\n" +
+                        "}"
                     );
                     writer.close();
 
@@ -94,7 +117,12 @@ public class App03_permgen_overflow {
                     sourceFile.deleteOnExit();
                 }
             };
-            Object object = loader.loadClass("main.java.core._11_memory_overflow.PermgenTest").newInstance();
+
+
+//            Object object = loader.loadClass("main.java.core._11_memory_overflow.PermgenTest").newInstance();
+//            Object object = loader.loadClass("core._11_memory_overflow.PermgenTest").newInstance();
+            Object object = loader.loadClass("PermgenTest").newInstance();
+
             list.add(object);
             System.out.println(list.size());
         }
