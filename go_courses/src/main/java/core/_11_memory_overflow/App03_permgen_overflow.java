@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Created by Sergei on 05.10.2015.
  * When run with JVM option:
- * -XX:MaxMetaspaceSize=64m
+ * -XX:MaxMetaspaceSize=64m (or 32m)
  *
  * resulted in OutOfMemoryError
  * e.g. of output:
@@ -29,9 +29,13 @@ public class App03_permgen_overflow {
     // java version
     //  public static final String OUTPUT_DIR = "D:\\IdeaProjects\\GoCourses\\out\\production\\go_courses\\core\\_11_memory_overflow";
     //  public static final String SOURCE_DIR = "D:\\IdeaProjects\\GoCourses\\go_courses\\src\\core\\_11_memory_overflow\\";
+
+    public static final String OUTPUT_DIR = "E:\\projects\\idea_projects\\GoCourses\\out\\production\\go_courses\\core\\_11_memory_overflow\\";
+    public static final String SOURCE_DIR = "E:\\projects\\idea_projects\\GoCourses\\go_courses\\src\\main\\java\\core\\_11_memory_overflow\\";
+
     // linux version
-    public static final String OUTPUT_DIR = "/home/sergei/projects/idea_projects/goCourses/out/production/go_courses/core/_11_memory_overflow/";
-    public static final String SOURCE_DIR = "/home/sergei/projects/idea_projects/goCourses/go_courses/src/main/java/core/_11_memory_overflow/";
+//    public static final String OUTPUT_DIR = "/home/sergei/projects/idea_projects/goCourses/out/production/go_courses/core/_11_memory_overflow/";
+//    public static final String SOURCE_DIR = "/home/sergei/projects/idea_projects/goCourses/go_courses/src/main/java/core/_11_memory_overflow/";
 
 
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
@@ -44,7 +48,6 @@ public class App03_permgen_overflow {
                 @Override
                 public Class<?> loadClass(String name) throws ClassNotFoundException {
 
-//                    String className = name.substring(name.lastIndexOf(".")+1);
                     String className = name;
 
                     if(!className.startsWith("Permgen"))
@@ -53,8 +56,6 @@ public class App03_permgen_overflow {
                     try {
                         createClass(className);
 
-//                        String url = "file:D:\\IdeaProjects\\GoCourses\\out\\production\\go_courses\\core\\_11_memory_overflow\\" + name + ".class";
-//                        String url = "file:/home/sergei/projects/idea_projects/goCourses/out/production/go_courses/core/_11_memory_overflow/" + name + ".class";
                         String url = "file:" + OUTPUT_DIR + name + ".class";
                         URL myUrl = new URL(url);
                         URLConnection connection = myUrl.openConnection();
@@ -118,9 +119,6 @@ public class App03_permgen_overflow {
                 }
             };
 
-
-//            Object object = loader.loadClass("main.java.core._11_memory_overflow.PermgenTest").newInstance();
-//            Object object = loader.loadClass("core._11_memory_overflow.PermgenTest").newInstance();
             Object object = loader.loadClass("PermgenTest").newInstance();
 
             list.add(object);
