@@ -1,4 +1,4 @@
-package main.java.core._12_hash_code_equals;
+package core._12_hash_code_equals;
 
 /**
  * Created by Sergei on 13.05.2016.
