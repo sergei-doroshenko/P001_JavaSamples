@@ -89,3 +89,6 @@ crashlytics-build.properties### Java template
 # Crashlytics plugin (for Android Studio and IntelliJ)
 crashlytics-build.properties
 
+go_courses/target/
+jcip/src/
+jcip/target/

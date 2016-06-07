@@ -7,7 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/go_courses/pom.xml" />
-        <option value="$PROJECT_DIR$/DesignPatterns/pom.xml" />
         <option value="$PROJECT_DIR$/jcip/pom.xml" />
       </list>
     </option>

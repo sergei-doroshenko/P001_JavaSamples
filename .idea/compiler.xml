@@ -22,13 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="DesignPatterns" />
         <module name="go_courses" />
         <module name="jcip" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="DesignPatterns" target="1.5" />
+      <module name="DesignPatterns" target="1.6" />
       <module name="go_courses" target="1.8" />
       <module name="jcip" target="1.5" />
     </bytecodeTargetLevel>
