@@ -1,7 +1,7 @@
 package core._4_threads._5_juc._5_atomic;
 
 import core.lib.ThreadUtils;
-import net.jcip.examples.ConcurrentStack;
+//import net.jcip.examples.ConcurrentStack;
 
 import java.util.Random;
 
@@ -10,7 +10,7 @@ import java.util.Random;
  */
 public class TreiberStackApp {
     public static void main(String[] args) throws InterruptedException {
-        final ConcurrentStack<Integer> stack = new ConcurrentStack();
+        /*final ConcurrentStack<Integer> stack = new ConcurrentStack();
 
         Thread t0 = new Thread(new Runnable() {
             @Override
@@ -63,7 +63,7 @@ public class TreiberStackApp {
         });
 
         t2.start();
-        t3.start();
+        t3.start();*/
 
 
     }
