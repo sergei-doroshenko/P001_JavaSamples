@@ -77,14 +77,7 @@ crashlytics-build.properties### Java template
 crashlytics-build.properties
 
 go_courses/target/
-jcip/src/
 jcip/target/
-guava-test/
-src/
-1Z0-803/
-encrypt/
 java-base/target/
-java-puzzlers/
 json/target/
-polyglot-sample/target/classes/org/
-polyglot-sample/target/test-classes/
+polyglot-sample/target/
