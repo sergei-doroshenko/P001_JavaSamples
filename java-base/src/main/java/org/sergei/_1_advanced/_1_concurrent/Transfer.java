@@ -1,4 +1,4 @@
-package org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent;
+package org.sergei._1_advanced._1_concurrent;
 
 import org.sergei._0_core.lib.ThreadUtils;
 import java.util.concurrent.Callable;

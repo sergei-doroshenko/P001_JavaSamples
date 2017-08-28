@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent.serial_executor;
+package org.sergei._1_advanced._1_concurrent.serial_executor;
 
 /**
  * All of the Runnables in the same "Stripe" will be executed consecutively.

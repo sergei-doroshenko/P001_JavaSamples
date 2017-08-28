@@ -1,4 +1,4 @@
-package org.sergei._1_advanced._1_concurrent.serial_executor._0_http;
+package org.sergei._1_advanced._0_http;
 
 import java.io.InputStream;
 import java.io.OutputStream;

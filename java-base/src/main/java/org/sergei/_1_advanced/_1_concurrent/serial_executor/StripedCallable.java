@@ -16,16 +16,15 @@
  * limitations under the License.
  */
 
-package org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent.serial_executor;
+package org.sergei._1_advanced._1_concurrent.serial_executor;
+
+import java.util.concurrent.*;
 
 /**
- * Used to indicate which "stripe" this Runnable or Callable belongs to.  The
- * stripe is determined by the identity of the object, rather than its hash
- * code and equals.
+ * All of the Callables in the same "Stripe" will be executed consecutively.
  *
  * @author Dr Heinz M. Kabutz
  * @see StripedExecutorService
  */
-public interface StripedObject {
-    Object getStripe();
+public interface StripedCallable<V> extends Callable<V>, StripedObject {
 }

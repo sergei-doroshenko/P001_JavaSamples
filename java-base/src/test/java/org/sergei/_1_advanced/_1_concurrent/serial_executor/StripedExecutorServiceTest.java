@@ -19,9 +19,6 @@
 package org.sergei._1_advanced._1_concurrent.serial_executor;
 
 import org.junit.*;
-import org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent.serial_executor.StripedCallable;
-import org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent.serial_executor.StripedExecutorService;
-import org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent.serial_executor.StripedRunnable;
 
 import java.util.*;
 import java.util.concurrent.*;

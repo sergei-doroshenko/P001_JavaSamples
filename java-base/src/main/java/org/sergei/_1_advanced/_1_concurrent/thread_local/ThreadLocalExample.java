@@ -1,4 +1,4 @@
-package org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent.thread_local;
+package org.sergei._1_advanced._1_concurrent.thread_local;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent;
+package org.sergei._1_advanced._1_concurrent;
 
 /**
  * Created by sergei on 12/28/15.

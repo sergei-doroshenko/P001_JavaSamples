@@ -1,4 +1,4 @@
-package org.sergei._1_advanced._1_concurrent.serial_executor._1_concurrent;
+package org.sergei._1_advanced._1_concurrent;
 
 import java.util.Deque;
 import java.util.concurrent.LinkedBlockingDeque;

@@ -14,5 +14,9 @@ public class JobStatusTest {
         JobStatus jobStatus = JobStatus.getByCode( "Cpld" );
         System.out.println(jobStatus);
         assertEquals( JobStatus.COMPLETED, jobStatus );
+
+        //****************************************************
+        System.out.println(JobStatus.FAILED.name().equals("FAILED"));
+
     }
 }
